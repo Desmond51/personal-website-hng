@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tech Goals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+  <ul>
+    <li><a href="#profile" data-testid="profileLink">Profile</a></li>
+    <li><a href="#current-info" data-testid="currentInfoLink">Current Info</a></li>
+    <li><a href="#goals" data-testid="goalsLink">Goals</a></li>
+    <li><a href="#links" data-testid="linksLink">Helpful Links</a></li>
+  </ul>
+</nav>
+<div class="progress-bar" data-testid="progressBar">
+  <div class="progress-bar-fill"></div>
+</div>
+  <header>
+    <h1>My Tech Goals for the Next 2 Years</h1>
+  </header>
+
+  <main>
+    <section class="profile">
+      <img src="image/profile.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+      <h2 data-testid="slackDisplayName">Desmond Teko</h2>
+      <p data-testid="slackEmail">desmondtekum9@example.com</p>
+    </section>
+
+    <section class="current-info">
+      <p>Current Time in UTC: <span data-testid="currentTimeUTC"></span></p>
+      <p>Current Day of the Week: <span data-testid="currentDay"></span></p>
+    </section>
+
+    <section class="goals">
+      <h2 >My Tech Goals</h2>
+      <ul>
+        <li>Become proficient in ReactJS and build complex web applications</li>
+        <li>Gain experience in integrating endpoints development using Node.js and Express</li>
+         <li>Gain experience in backend development using Node.js and Express</li>
+        <li>Learn cloud technologies like AWS and deploy my projects</li>
+        <li>Contribute to open-source projects and build a strong portfolio</li>
+        <li>Continuously improve my problem-solving and critical thinking skills</li>
+      </ul>
+    </section>
+
+    <section class="links">
+      <h2>Helpful Links</h2>
+      <ul>
+        <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+        <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword.dog</a></li>
+        <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrapeanyweb.site</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Desmond Teko. All rights reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
