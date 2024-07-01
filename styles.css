@@ -96,20 +96,17 @@ header h1 {
 /* Goals section styles */
 .goals {
   margin-bottom: 40px;
+  margin: 100px;
+  text-align: center;
 }
 
 .goals ul {
   list-style-type: none;
-   padding-left: 0;
-}
-.goals h2{
-    text-align: center;
+  padding-left: 20px;
 }
 
 .goals li {
   margin-bottom: 10px;
-  list-style-type: square;
-  margin-left: 720px; 
 }
 
 /* Links section styles */
